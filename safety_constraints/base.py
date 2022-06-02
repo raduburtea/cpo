@@ -1,6 +1,6 @@
-from rllab.core.parameterized import Parameterized
-from rllab.core.serializable import Serializable
-import rllab.misc.logger as logger
+from rllab.rllab.core.parameterized import Parameterized
+from rllab.rllab.core.serializable import Serializable
+import rllab.rllab.misc.logger as logger
 
 
 class SafetyConstraint(object):

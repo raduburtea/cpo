@@ -5,12 +5,12 @@ import xml.etree.ElementTree as ET
 import numpy as np
 
 from rllab import spaces
-from rllab.core.serializable import Serializable
-from rllab.envs.base import Step
-from rllab.envs.mujoco.mujoco_env import MujocoEnv, MODEL_DIR
-from rllab.envs.proxy_env import ProxyEnv
-from rllab.misc import logger
-from rllab.misc.overrides import overrides
+from rllab.rllab.core.serializable import Serializable
+from rllab.rllab.envs.base import Step
+from rllab.rllab.envs.mujoco.mujoco_env import MujocoEnv, MODEL_DIR
+from rllab.rllab.envs.proxy_env import ProxyEnv
+from rllab.rllab.misc import logger
+from rllab.rllab.misc.overrides import overrides
 
 
 BIG = 1e6

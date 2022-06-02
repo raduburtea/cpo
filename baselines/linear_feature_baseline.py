@@ -1,5 +1,5 @@
-from rllab.baselines.base import Baseline
-from rllab.misc.overrides import overrides
+from rllab.rllab.baselines.base import Baseline
+from rllab.rllab.misc.overrides import overrides
 import numpy as np
 
 

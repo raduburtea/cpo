@@ -2,12 +2,12 @@ import sys
 
 sys.path.append(".")
 
-from rllab.envs.normalized_env import normalize
-from rllab.misc.instrument import run_experiment_lite
+from rllab.rllab.envs.normalized_env import normalize
+from rllab.rllab.misc.instrument import run_experiment_lite
 import lasagne.nonlinearities as NL
 
 # Policy
-from rllab.policies.gaussian_mlp_policy import GaussianMLPPolicy
+from rllab.rllab.policies.gaussian_mlp_policy import GaussianMLPPolicy
 
 # Baseline
 from sandbox.cpo.baselines.gaussian_mlp_baseline import GaussianMLPBaseline

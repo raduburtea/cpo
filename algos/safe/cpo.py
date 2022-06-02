@@ -1,6 +1,6 @@
 from sandbox.cpo.algos.safe.policy_gradient_safe import PolicyGradientSafe
 from sandbox.cpo.optimizers.conjugate_constraint_optimizer import ConjugateConstraintOptimizer
-from rllab.core.serializable import Serializable
+from rllab.rllab.core.serializable import Serializable
 
 
 class CPO(PolicyGradientSafe, Serializable):

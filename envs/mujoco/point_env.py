@@ -1,10 +1,10 @@
-from rllab.envs.base import Step
-from rllab.envs.mujoco.mujoco_env import MujocoEnv
-from rllab.core.serializable import Serializable
-from rllab.misc.overrides import overrides
+from rllab.rllab.envs.base import Step
+from rllab.rllab.envs.mujoco.mujoco_env import MujocoEnv
+from rllab.rllab.core.serializable import Serializable
+from rllab.rllab.misc.overrides import overrides
 import numpy as np
 import math
-from rllab.mujoco_py import glfw
+from rllab.rllab.mujoco_py import glfw
 
 
 class PointEnv(MujocoEnv, Serializable):

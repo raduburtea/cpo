@@ -1,7 +1,7 @@
-from rllab.core.serializable import Serializable
-from rllab.envs.mujoco.simple_humanoid_env import SimpleHumanoidEnv
+from rllab.rllab.core.serializable import Serializable
+from rllab.rllab.envs.mujoco.simple_humanoid_env import SimpleHumanoidEnv
 from sandbox.cpo.envs.mujoco_safe.mujoco_env_safe import SafeMujocoEnv
-from rllab.envs.base import Step
+from rllab.rllab.envs.base import Step
 import numpy as np
 
 class SafeSimpleHumanoidEnv(SafeMujocoEnv, Serializable):

@@ -1,11 +1,11 @@
 import numpy as np
-import rllab.misc.logger as logger
-from rllab.sampler import parallel_sampler
-from rllab.sampler.base import Sampler
-from rllab.misc import ext
-from rllab.misc import special
-from rllab.misc import tensor_utils
-from rllab.algos import util
+import rllab.rllab.misc.logger as logger
+from rllab.rllab.sampler import parallel_sampler
+from rllab.rllab.sampler.base import Sampler
+from rllab.rllab.misc import ext
+from rllab.rllab.misc import special
+from rllab.rllab.misc import tensor_utils
+from rllab.rllab.algos import util
 
 
 

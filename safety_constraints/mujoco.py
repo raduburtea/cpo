@@ -1,5 +1,5 @@
-from rllab.core.parameterized import Parameterized
-from rllab.core.serializable import Serializable
+from rllab.rllab.core.parameterized import Parameterized
+from rllab.rllab.core.serializable import Serializable
 from sandbox.cpo.safety_constraints.base import *
 import numpy as np
 

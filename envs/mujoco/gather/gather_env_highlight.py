@@ -8,14 +8,14 @@ import numpy as np
 import theano
 
 from rllab import spaces
-from rllab.misc import logger
-from rllab.core.serializable import Serializable
-from rllab.envs.base import Env, Step
-from rllab.envs.mujoco.gather.embedded_viewer import EmbeddedViewer
-from rllab.envs.mujoco.mujoco_env import MODEL_DIR, BIG
-from rllab.misc import autoargs
-from rllab.misc.overrides import overrides
-from rllab.mujoco_py import MjViewer, MjModel, mjcore, mjlib, \
+from rllab.rllab.misc import logger
+from rllab.rllab.core.serializable import Serializable
+from rllab.rllab.envs.base import Env, Step
+from rllab.rllab.envs.mujoco.gather.embedded_viewer import EmbeddedViewer
+from rllab.rllab.envs.mujoco.mujoco_env import MODEL_DIR, BIG
+from rllab.rllab.misc import autoargs
+from rllab.rllab.misc.overrides import overrides
+from rllab.rllab.mujoco_py import MjViewer, MjModel, mjcore, mjlib, \
     mjextra, glfw
 
 

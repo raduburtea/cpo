@@ -1,4 +1,4 @@
-from rllab.misc import autoargs
+from rllab.rllab.misc import autoargs
 
 
 class Baseline(object):

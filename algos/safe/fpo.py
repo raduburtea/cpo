@@ -1,7 +1,7 @@
 from sandbox.cpo.algos.safe.policy_gradient_safe import PolicyGradientSafe
 from sandbox.cpo.optimizers.conjugate_gradient_optimizer import ConjugateGradientOptimizer
-from rllab.core.serializable import Serializable
-import rllab.misc.logger as logger
+from rllab.rllab.core.serializable import Serializable
+import rllab.rllab.misc.logger as logger
 
 
 class FPO(PolicyGradientSafe, Serializable):

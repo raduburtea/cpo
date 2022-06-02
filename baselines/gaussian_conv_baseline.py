@@ -1,10 +1,10 @@
 import numpy as np
 
-from rllab.core.serializable import Serializable
-from rllab.misc.overrides import overrides
-from rllab.core.parameterized import Parameterized
-from rllab.baselines.base import Baseline
-from rllab.regressors.gaussian_conv_regressor import GaussianConvRegressor
+from rllab.rllab.core.serializable import Serializable
+from rllab.rllab.misc.overrides import overrides
+from rllab.rllab.core.parameterized import Parameterized
+from rllab.rllab.baselines.base import Baseline
+from rllab.rllab.regressors.gaussian_conv_regressor import GaussianConvRegressor
 
 
 class GaussianConvBaseline(Baseline, Parameterized, Serializable):

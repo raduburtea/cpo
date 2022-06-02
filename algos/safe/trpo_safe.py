@@ -1,7 +1,7 @@
 from sandbox.cpo.algos.safe.policy_gradient_safe import PolicyGradientSafe
 from sandbox.cpo.optimizers.conjugate_constraint_optimizer import ConjugateConstraintOptimizer
 from sandbox.cpo.optimizers.conjugate_gradient_optimizer import ConjugateGradientOptimizer
-from rllab.core.serializable import Serializable
+from rllab.rllab.core.serializable import Serializable
 from sandbox.cpo.safety_constraints.trivial import TrivialSafetyConstraint
 
 

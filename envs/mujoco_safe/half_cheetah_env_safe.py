@@ -1,5 +1,5 @@
-from rllab.core.serializable import Serializable
-from rllab.envs.mujoco.half_cheetah_env import HalfCheetahEnv
+from rllab.rllab.core.serializable import Serializable
+from rllab.rllab.envs.mujoco.half_cheetah_env import HalfCheetahEnv
 from sandbox.cpo.envs.mujoco_safe.mujoco_env_safe import SafeMujocoEnv
 import numpy as np
 
@@ -23,10 +23,10 @@ import xml.etree.ElementTree as ET
 
 import numpy as np
 
-from rllab.core.serializable import Serializable
-from rllab.envs.base import Step
-from rllab.misc import logger
-from rllab.misc.overrides import overrides
+from rllab.rllab.core.serializable import Serializable
+from rllab.rllab.envs.base import Step
+from rllab.rllab.misc import logger
+from rllab.rllab.misc.overrides import overrides
 
 
 def smooth_abs(x, param):

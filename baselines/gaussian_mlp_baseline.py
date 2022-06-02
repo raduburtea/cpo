@@ -1,10 +1,10 @@
 import numpy as np
 
-from rllab.core.serializable import Serializable
-from rllab.core.parameterized import Parameterized
-from rllab.baselines.base import Baseline
-from rllab.misc.overrides import overrides
-from rllab.regressors.gaussian_mlp_regressor import GaussianMLPRegressor
+from rllab.rllab.core.serializable import Serializable
+from rllab.rllab.core.parameterized import Parameterized
+from rllab.rllab.baselines.base import Baseline
+from rllab.rllab.misc.overrides import overrides
+from rllab.rllab.regressors.gaussian_mlp_regressor import GaussianMLPRegressor
 
 
 class GaussianMLPBaseline(Baseline, Parameterized, Serializable):

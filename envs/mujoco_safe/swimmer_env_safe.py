@@ -1,5 +1,5 @@
-from rllab.core.serializable import Serializable
-from rllab.envs.mujoco.swimmer_env import SwimmerEnv
+from rllab.rllab.core.serializable import Serializable
+from rllab.rllab.envs.mujoco.swimmer_env import SwimmerEnv
 from sandbox.cpo.envs.mujoco_safe.mujoco_env_safe import SafeMujocoEnv
 import numpy as np
 

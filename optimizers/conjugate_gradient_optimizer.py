@@ -1,12 +1,12 @@
-from rllab.misc import ext
-from rllab.misc import krylov
-from rllab.misc import logger
-from rllab.core.serializable import Serializable
+from rllab.rllab.misc import ext
+from rllab.rllab.misc import krylov
+from rllab.rllab.misc import logger
+from rllab.rllab.core.serializable import Serializable
 import theano.tensor as TT
 import theano
 import itertools
 import numpy as np
-from rllab.misc.ext import sliced_fun
+from rllab.rllab.misc.ext import sliced_fun
 from _ast import Num
 
 
@@ -164,7 +164,7 @@ class ConjugateGradientOptimizer(Serializable):
         """
         :param loss: Symbolic expression for the loss function.
         :param target: A parameterized object to optimize over. It should implement methods of the
-        :class:`rllab.core.paramerized.Parameterized` class.
+        :class:`rllab.rllab.core.paramerized.Parameterized` class.
         :param leq_constraint: A constraint provided as a tuple (f, epsilon), of the form f(*inputs) <= epsilon.
         :param inputs: A list of symbolic variables as inputs, which could be subsampled if needed. It is assumed
         that the first dimension of these inputs should correspond to the number of data points

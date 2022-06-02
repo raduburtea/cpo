@@ -1,10 +1,10 @@
-from rllab.envs.mujoco.mujoco_env import MujocoEnv
-from rllab.core.serializable import Serializable
+from rllab.rllab.envs.mujoco.mujoco_env import MujocoEnv
+from rllab.rllab.core.serializable import Serializable
 import numpy as np
 
-from rllab.envs.base import Step
-from rllab.misc.overrides import overrides
-from rllab.misc import logger
+from rllab.rllab.envs.base import Step
+from rllab.rllab.misc.overrides import overrides
+from rllab.rllab.misc import logger
 
 
 class AntEnv(MujocoEnv, Serializable):

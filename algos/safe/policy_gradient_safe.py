@@ -1,17 +1,17 @@
 import gc
 import numpy as np
 import time
-from rllab.algos.batch_polopt import BatchPolopt
-from rllab.baselines.zero_baseline import ZeroBaseline
-from rllab.optimizers.conjugate_gradient_optimizer import ConjugateGradientOptimizer
-from rllab.core.serializable import Serializable
-from rllab.sampler import parallel_sampler
-from rllab.misc.overrides import overrides
-from rllab.misc import ext
-from rllab.misc import special
-from rllab.misc import tensor_utils
-from rllab.algos import util
-import rllab.misc.logger as logger
+from rllab.rllab.algos.batch_polopt import BatchPolopt
+from rllab.rllab.baselines.zero_baseline import ZeroBaseline
+from rllab.rllab.optimizers.conjugate_gradient_optimizer import ConjugateGradientOptimizer
+from rllab.rllab.core.serializable import Serializable
+from rllab.rllab.sampler import parallel_sampler
+from rllab.rllab.misc.overrides import overrides
+from rllab.rllab.misc import ext
+from rllab.rllab.misc import special
+from rllab.rllab.misc import tensor_utils
+from rllab.rllab.algos import util
+import rllab.rllab.misc.logger as logger
 import theano
 import theano.tensor as TT
 
